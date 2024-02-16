@@ -17,3 +17,4 @@ console.log(argv);
 crearArchivo(argv.base, argv.listar,argv.amount)
     .then(nombreArchivo => console.log(nombreArchivo.rainbow, 'creado'))
     .catch(err => console.log(err))
+console.log('prueba')
